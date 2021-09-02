@@ -1,3 +1,8 @@
+.jumbotron {
+  margin-top: 10%;
+  text-align: center;
+}
+
 .navbar-brand {
   margin-left: 3%;
 }
