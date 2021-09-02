@@ -1,0 +1,8 @@
+.navbar-brand {
+  margin-left: 3%;
+}
+
+.navbar-nav > li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
