@@ -1,13 +1,43 @@
-.jumbotron {
-  margin-top: 10%;
-  text-align: center;
+.card-img-top {
+  width: 15%;
+  margin-top: 1em;
 }
 
 .navbar-brand {
   margin-left: 3%;
 }
 
+.jumbotron {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.architecture {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: right;
+}
+.architecture > h1 {
+  text-align: center;
+}
+.architecture .card {
+  text-align: center;
+  align-items: center;
+}
+
 .navbar-nav > li {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.motivation {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  text-align: right;
+}
+
+.platform {
+  text-align: center;
 }
