@@ -16,10 +16,8 @@
   margin-right: 20%;
   text-align: right;
 }
-.architecture > h1 {
-  text-align: center;
-}
-.architecture .card {
+.architecture > h1,
+.card {
   text-align: center;
   align-items: center;
 }
@@ -37,6 +35,30 @@
   text-align: right;
 }
 
+.ui-reports {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: right;
+}
+.ui-reports > h1 {
+  text-align: center;
+}
+.ui-reports > p,
+li {
+  text-align: center;
+}
+
+.platform .card {
+  text-align: center;
+}
+.platform > h1,
+p {
+  text-align: center;
+}
 .platform {
+  text-align: right;
+}
+
+.references > h1 {
   text-align: center;
 }
