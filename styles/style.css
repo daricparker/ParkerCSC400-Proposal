@@ -43,8 +43,10 @@
 .ui-reports > h1 {
   text-align: center;
 }
-.ui-reports > p,
-li {
+.ui-reports > p {
+  text-align: center;
+}
+.ui-reports > li {
   text-align: center;
 }
 
@@ -60,5 +62,12 @@ p {
 }
 
 .references > h1 {
+  text-align: center;
+}
+.references > li {
+  text-align: center;
+}
+
+.About > h1 {
   text-align: center;
 }
