@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Fit-Forward Architecture</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Fit-Forward</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Overview
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./motivation.html">Motivation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./architecture.html">Architecture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./platform.html">Platform</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ui-reports.html">User-Interaction & Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./references.html">References</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">UML Diagrams</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="./diagrams.html#uml">Sequence Diagram</a>
+                <a class="dropdown-item" href="./diagrams.html#case">Case Diagram</a>
+                <a class="dropdown-item" href="./diagrams.html#class">Class Diagram</a>
+                <a class="dropdown-item" href="./diagrams.html#er">ER Diagram</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="./sunni.html">Sunni Lakhaisy</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./daric.html">Daric Parker</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+      <section class="architecture">
+        <h1 class="display-4 my-4">Architecture</h1>
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="./img/client-server_model_1253.png">
+            <div class="card-body">
+              <p class="card-text">Fit-Forward will be a web-based application which will utilize the server/client architecture. </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top img-fluid" src="./img/db.png">
+            <div class="card-body">
+              <p class="card-text">The database will include information such as users, their daily dietary intake, meals, and also their exercise logs, stats and routine.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top img-fluid" src="./img/api.png">
+            <div class="card-body">
+              <p class="card-text">The data on nutritional foods will be fetched through an API provided by <a href="https://fdc.nal.usda.gov/index.html"><strong>FoodData Central</strong></a> which is part of the <a href="https://www.usda.gov/"> <strong>U.S. Department of Agriculture, Agricultural Research Service</strong></a>. For data on various exercises and the burning of calories, the tentative API will be provided by  <a href="https://wger.de/en/software/api"><strong>wger</strong></a>. For displaying data through charts to the users, we will be using <a href="https://developers.google.com/chart"><strong>Google Charts</strong></a>.</p>
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-primary btn-lg my-4" href="./motivation.html" role="button">Previous</a>
+        <a class="btn btn-primary btn-lg my-4" href="./platform.html" role="button">Next</a>
+      </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

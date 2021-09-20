@@ -1,0 +1,77 @@
+.card-img-top {
+  width: 23%;
+  margin-top: 1em;
+}
+
+.navbar-brand {
+  margin-left: 3%;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.architecture {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: right;
+}
+.architecture > h1,
+.card {
+  text-align: center;
+  align-items: center;
+}
+
+.navbar-nav > li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.motivation {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  text-align: right;
+}
+
+.ui-reports {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: right;
+}
+.ui-reports > h1 {
+  text-align: center;
+}
+.ui-reports > p {
+  text-align: center;
+}
+.ui-reports > li {
+  text-align: center;
+}
+
+.platform .card {
+  text-align: center;
+}
+.platform > h1,
+p {
+  text-align: center;
+}
+.platform {
+  text-align: right;
+}
+
+.references > h1 {
+  text-align: center;
+}
+.references > li {
+  text-align: center;
+}
+
+.About > h1 {
+  text-align: center;
+}
+
+.video {
+  text-align: center;
+}
