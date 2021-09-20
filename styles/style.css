@@ -35,6 +35,19 @@
   text-align: right;
 }
 
+.timetable {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
+.table {
+  border-color: black;
+  vertical-align: middle;
+  text-align: center;
+}
+
 .ui-reports {
   margin-left: 20%;
   margin-right: 20%;
@@ -74,4 +87,9 @@ p {
 
 .video {
   text-align: center;
+}
+
+span {
+  font-weight: bold;
+  color: red;
 }
