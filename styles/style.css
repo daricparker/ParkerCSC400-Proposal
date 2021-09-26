@@ -35,6 +35,16 @@
   text-align: right;
 }
 
+.goal {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  text-align: right;
+}
+.goal > li {
+}
+
 .timetable {
   font-size: 18px;
   margin-top: 5%;
@@ -75,10 +85,11 @@ p {
   text-align: right;
 }
 
-.references > h1 {
-  text-align: center;
+.references {
+  margin-left: 20%;
+  margin-right: 20%;
 }
-.references > li {
+.references > h1 {
   text-align: center;
 }
 
@@ -88,6 +99,16 @@ p {
 
 .video {
   text-align: center;
+}
+
+.overview {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.overview-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 span {
